@@ -1,3 +1,4 @@
+//Script
 gsap.from(".hero-image-wrapper, .content-wrapper, .front-img", 2, {
   delay: 0.25,
   clipPath: "inset(0 100% 0 0)",
