@@ -68,6 +68,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-content: center;
+  min-height: 350px;
 }
 
 /*Header */
@@ -147,11 +148,14 @@ header h2 {
 }
 
 /*Media query*/
-@media screen and (max-width: 910px) {
+@media screen and (max-width: 996px) {
   .container {
     flex-direction: column;
   }
   header h2 {
     font-size: 15vw;
+  }
+  .hero-image-wrapper .front-img {
+    width: 75%;
   }
 }
